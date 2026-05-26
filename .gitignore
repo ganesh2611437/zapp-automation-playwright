@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Logs
+logs/
+
+# Playwright videos
+videos/
+
+# Screenshots
+screenshots/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables
+.env
