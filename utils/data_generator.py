@@ -134,3 +134,26 @@ EMAIL_ADDRESS = (
 PHONE_NUMBER = (
     f"9{random.randint(100000000, 999999999)}"
 )
+
+
+# ---------------------------------------------------
+# JOB DATA
+# ---------------------------------------------------
+
+job_titles = [
+    "Automation Engineer",
+    "Software Developer",
+    "QA Engineer",
+    "Technical Consultant",
+    "Business Analyst",
+    "Project Coordinator",
+    "DevOps Engineer",
+    "Product Specialist"
+]
+
+JOB_TITLE = f"{random.choice(job_titles)}_{timestamp}"
+
+JOB_DESCRIPTION = (
+    "Responsible for supporting the delivery of high-quality software products, "
+    "working closely with cross-functional teams to ensure requirements are met."
+)
